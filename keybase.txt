@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/uman230
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://umanchanda.github.io
+  * I am uman230 (https://keybase.io/uman230) on keybase.
+  * I have a public key ASCpZwn4hqimOhb5PC9Tl9rm8ph5n7KxnaKvXoXD3t2sqQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01203c9d8ca006744621745d1b1006dcc8a687fd7173bfcafd02355642da8d57a2700a",
+      "host": "keybase.io",
+      "kid": "0120a96709f886a8a63a16f93c2f5397dae6f298799fb2b19da2af5e85c3deddaca90a",
+      "uid": "ede604da006925ce56d0dd872386e719",
+      "username": "uman230"
+    },
+    "merkle_root": {
+      "ctime": 1589050351,
+      "hash": "65aa5733b960911575b9b0a89bf7ad7096e5d1c4d19d6323a5f339a5268e970073a964c802e462a11ea0e7a4b2836d7f5392a439562b881995291ae456110865",
+      "hash_meta": "24ff36eb44ea49c1b1fa59ce285c22da8fdabb1b9ca930693531e69f773729dd",
+      "seqno": 16233557
+    },
+    "service": {
+      "entropy": "8HPovdZNwdskjt7kSAEPqb46",
+      "hostname": "umanchanda.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.4.2"
+  },
+  "ctime": 1589050364,
+  "expire_in": 504576000,
+  "prev": "77f23e811d657b0d5ff4e9cf8a7dce519f1faae806a04412d1db0666d522792c",
+  "seqno": 47,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgqWcJ+IaopjoW+TwvU5fa5vKYeZ+ysZ2ir16Fw97drKkKp3BheWxvYWTESpcCL8Qgd/I+gR1lew1f9OnPin3OUZ8fqugGoEQS0dsGZtUieSzEIHfiCp2wgbfV4UH3SFYiL+3an2BTYjBMLGJ+NJU3ZUC+AgHCo3NpZ8RAB/wq0v+GCGyciutwhm1nnXF69zDDdIGa1a8w4a9Nm8csmjb2KFRdrEHAXdMaScq9mjT6ww3Ch/W5aaeTN9jRCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBCdFAkTQZRv5jqSUZCcM1+iVqW8plazY76YR6IVZQXzo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/uman230
+
+==================================================================
