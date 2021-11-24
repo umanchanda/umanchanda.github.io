@@ -5,7 +5,7 @@ author: Uday
 date:   2021-11-24
 ---
 
-Today I wil be discussing one of the leetcode problems I solved a few days ago. This one is Leetcode 49: Group Anagrams and it's a Medium. The problem is as follows:
+Today I wil be discussing one of the leetcode problems I solved a few days ago. This one is Leetcode 49: Group Anagrams and it's a Medium. You can find it [here](https://leetcode.com/problems/group-anagrams/). The problem is as follows:
 
 ```
 Given an array of strings strs, group the anagrams together. You can return the answer in any order.
