@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "My First Blog Post"
-date:   2019-05-07 01:38:26 -0400
-categories: jekyll update
+author: Uday
+date:   2019-05-07
 ---
 Hello and welcome to my blogs. I will be updating this periodically with new posts regarding my personal projects and things I would like to learn. Once I begin my job at Capital One, I plan on blogging about my experiences there. 
 
