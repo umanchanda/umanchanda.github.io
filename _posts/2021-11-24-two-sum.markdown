@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "Leetcode 1: Two Sum"
+author: Uday
+date:   2021-11-24
+---
+
+This is another leetcode problem that I had actually solved a long time but wanted to blog about it. This one is the famous (or infamous) Two Sum, the very first Leetcode problem in the problems list. The link to the problem is [here](https://leetcode.com/problems/two-sum/). The problem is as follows:
+
+```
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Output: Because nums[0] + nums[1] == 9, we return [0, 1].
+```
+
+On first glance, you might solve this via a brute force approach by checking each possible combination of sums until you reach the target. This approach would yield a time complexity of `O(n^2)` since you need an outer for loop to traverse all the elements in the array and then an inner for loop to traverse the elements starting from the second one. However this approach is inefficient and you can actually solve it in `O(n)` time using a dictionary. 
+
+The dictionary approach involves storing the value as the key as well as the index at where it's placed as the value. In the example provided, our dictionary would look something like this:
+
+```
+{
+  2: 0,
+  7: 1,
+  11: 2,
+  15: 3
+}
+```
+
+if we were to store every single value and index. This represents a worst case possibility if the solution is found at the last index. For this particular problem, we are told that each input array will have exactly one solution. 
+
+To simplify matters, if we have a target and a value, we can obviously find the difference. This difference will need to be in the array for us to find a solution. In the example, when we traverse the array, we will start at index 0 which is 2. Since our target is 9, we know that we need to find a 7 in the array for us to return a valid solution. This means we don't have to keep checking every possible combination since if we can't find a 7, we know that the solution does not contain 2, or 0, since that is the index where 2 is. 
+
+To solve the problem, we will iterate over the array, calculate the difference between the target and value, and check if that difference is in the dictionary. If not, we will append the value and index to the dictionary, since we need to return the index NOT the value. 
+
+In the first check, our dictionary is empty. We calculat the difference, which is `9-2=7`. However 7 is not in our dictionary. So we add the k-v pair, `2: 0` to it. On the next check, our value is 7. The difference between the target and value is `9-7=2`. We see that 2 is in the dictionary. So we can return the current index, as well as the index of 2. 
+
+If our target was `26` instead of `9`, we would solve the problem with the same approach. `26-2=24`. 24 is not in the dictionary, so we add `2: 0`. `26-7=19`. 19 is not in the dictionary, so we add `7: 1` to it. `26-11=15`. 15 is not in the dictionary, so we add `11: 2`. `26-15=11`. 11 *is* in the dictionary. So we return `[2,3]`. 
+
+**Time Complexity**: If there are n elements in our input array, the worst case time complexity is `O(n)` if we need to traverse the entire array if the solution is only found at the last index. 
+
+**Space Complexity**: Is `O(n)` since we are storing at most, n elements, in our dictionary. 
+
+The code for this can be found [here](https://github.com/umanchanda/leetcode/blob/main/01-twoSum.py) and I hope you enjoyed this write-up. 
