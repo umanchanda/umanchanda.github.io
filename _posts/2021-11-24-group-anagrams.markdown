@@ -19,7 +19,9 @@ Before jumping into the problem, it's important to understand how to determine i
 To solve group anagrams, we will use a dictionary to store the character frequency as the key and the words that match that character frequeucy as the value to the key. In rough terms, the dictionary will look something like this:
 
 ```
-{[1 b, 1 a, 1 t]: ["bat", "tab"]}
+{
+  [1 b, 1 a, 1 t]: ["bat", "tab"]
+}
 ```
 
 Based on the example that Leetcode gave us, our dictionary would look something like this:
