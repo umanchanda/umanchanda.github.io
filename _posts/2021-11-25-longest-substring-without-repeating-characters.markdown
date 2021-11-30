@@ -30,4 +30,4 @@ Another important thing to mention is that we need a variable to store the lengt
 
 **Space Complexity**: At worst, we will need to store every single character in our set if every single character in the string is unique. So the space complexity is `O(n)`. 
 
-The code to the problem can be found [here](https://github.com/umanchanda/leetcode/blob/main/03-longestSubstringWithoutRepeatingCharacters.py) and I hope you enjoyed this writeup. 
+The code to the problem can be found [here](https://github.com/umanchanda/leetcode/blob/main/003-longestSubstringWithoutRepeatingCharacters.py) and I hope you enjoyed this writeup. 
