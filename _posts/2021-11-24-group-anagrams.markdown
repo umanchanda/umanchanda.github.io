@@ -62,6 +62,6 @@ From this point, we can return the values in the dictionary, as I previously men
 
 **Space complexity**: Given the same assumptions as before, our space complexity will also be `O(nk)` since that is the total information stored in our dictionary. 
 
-The code for this problem can be found [here](https://github.com/umanchanda/leetcode/blob/main/49-groupAnagrams.py)
+The code for this problem can be found [here](https://github.com/umanchanda/leetcode/blob/main/049-groupAnagrams.py)
 
 I hope to keep doing these blogs where I solve a leetcode problem since I believe this will help me get better at explaining my solution in a proper whiteboarding interview. 
