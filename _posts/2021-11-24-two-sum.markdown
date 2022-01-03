@@ -42,4 +42,4 @@ If our target was `26` instead of `9`, we would solve the problem with the same 
 
 **Space Complexity**: Is `O(n)` since we are storing at most, n elements, in our dictionary. 
 
-The code for this can be found [here](https://github.com/umanchanda/leetcode/blob/main/01-twoSum.py) and I hope you enjoyed this write-up. 
+The code for this can be found [here](https://github.com/umanchanda/leetcode/blob/main/001-twoSum.py) and I hope you enjoyed this write-up. 
