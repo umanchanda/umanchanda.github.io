@@ -29,6 +29,13 @@ github_username:  umanchanda
 
 # Build settings
 theme: minima
+sass:
+  quiet_deps: true
+  silence_deprecations:
+    - import
+    - color-functions
+    - global-builtin
+    - slash-div
 plugins:
   - jekyll-feed
 
